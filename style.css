@@ -141,3 +141,40 @@ tr:last-child td {
 td:first-child{
     padding-left: 30px;
 }
+/*---------------------------RESPONSIVE ----------------------------*/
+@media screen and (max-width: 376px) {
+    body {
+        background-color: white; 
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    img {
+        border: none;
+        border-radius: 0%;
+        width: 100%;
+        display: block;
+    }
+    .recette {
+        padding: 0;
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
+    h1{
+        font-size: 25px;
+    }
+
+    .intro, .box, .boxInst{
+        padding: 15px;
+    }
+}
